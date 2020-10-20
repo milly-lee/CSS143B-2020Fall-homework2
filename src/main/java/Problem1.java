@@ -8,7 +8,6 @@ public class Problem1 {
     * keep track of highest index (int high)
      */
 
-    // Do not change signature (function name, parameters type, and return type)
     public static void colorSort(int[] nums) {
         int low = 0;
         int high = nums.length - 1;

@@ -13,7 +13,7 @@ public abstract class Book implements StoreMediaOperations {
         this.id = UUID.randomUUID();
     }
 
-    // copy constructor
+    // this is for copy constructor
     public Book(Book anotherBook) {
         title = anotherBook.title;
         author = anotherBook.author;

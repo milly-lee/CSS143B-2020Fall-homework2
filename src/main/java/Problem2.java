@@ -8,8 +8,6 @@ public class Problem2 {
      * return index of last new number + 1(index + 1 = length)
      */
 
-    // Do not change signature (function name, parameters and return type)
-    // Do not use extra space for another array. Solution to be in-pace with O(1) extra memory
     public static int remove(int[] nums) {
         if(nums.length <= 1) {
          return nums.length;  //if there is 0 or one num on the list, it's already sorted
